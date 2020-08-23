@@ -6,14 +6,15 @@ It works like a multiple choice quiz. A face displaying a certain emotion is pre
 
 ## How do you get it to work on your computer?
 There are a few things you must do first in order to ensure this program will run on your own computer, these are:
-1. Ensure you have two folders, one containing images for the "practice" condition (this allows users to familiarise themselves with the methodology - these answers are not stored) and one containing images for the "main" condition.
-2. Ensure every image in this folder has a name which includes the emotion type, for example "manangry" or "womanafraid". I used a naming convention such as "man04angry30" with the first number representing the actor and the second number displaying the emotion intensity as a percentage. You're free to use whatever naming convention you want, as long as you have the correct emotion in the image name (this is not case sensitive).
-3. Change the 'noQuestions' and 'noPracticeQuestions' to the number of main questions and practice questions you want, respectively. Ensure you have enough images to cover the question numbers.
-4. Change the following directories:
+1. Ensure that you download and install Pygame.
+2. Ensure you have two folders, one containing images for the "practice" condition (this allows users to familiarise themselves with the methodology - these answers are not stored) and one containing images for the "main" condition.
+3. Ensure every image in this folder has a name which includes the emotion type, for example "manangry" or "womanafraid". I used a naming convention such as "man04angry30" with the first number representing the actor and the second number displaying the emotion intensity as a percentage. You're free to use whatever naming convention you want, as long as you have the correct emotion in the image name (this is not case sensitive).
+4. Change the 'noQuestions' and 'noPracticeQuestions' to the number of main questions and practice questions you want, respectively. Ensure you have enough images to cover the question numbers.
+5. Change the following directories:
 BASE_DIRECTORY to the directory in which you want the final results CSV file to be stored in
 IMAGE_DIRECTORY to the directory in which your main condition images are stored
 PRACTICE_IMAGE_DIRECTORY to the directory in which your practice condition images are stored
-5. By default, the experiment will only work with "happy", "sad", "neutral", "angry" and "afraid" emotions. To change this, modify the "emotionTypes" list. Feel free to add more emotion types, remove emotion types or modify the emotion types in this list. The buttons presented in the experiment will be automatically updated to account for any changes you make.
+6. By default, the experiment will only work with "happy", "sad", "neutral", "angry" and "afraid" emotions. To change this, modify the "emotionTypes" list. Feel free to add more emotion types, remove emotion types or modify the emotion types in this list. The buttons presented in the experiment will be automatically updated to account for any changes you make.
 
 After making these changes, the experiment should run on your computer. However, there are further customisations you can make if you wish to tinker a little more:
 
